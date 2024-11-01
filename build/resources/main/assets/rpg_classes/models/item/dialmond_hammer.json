@@ -1,0 +1,8 @@
+{
+  "parent": "rpg_classes:custom/hammer",
+  "textures": {
+    "0": "rpg_classes:block/hammer_top",
+    "1": "rpg_classes:block/hammer_stick",
+    "particle": "rpg_classes:item/hammer"
+  }
+}

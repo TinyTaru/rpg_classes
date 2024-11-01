@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:book"
+    },
+    "b": {
+      "item": "minecraft:diamond"
+    },
+    "c": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "rpg_classes:class_table",
+    "count": 1
+  }
+}

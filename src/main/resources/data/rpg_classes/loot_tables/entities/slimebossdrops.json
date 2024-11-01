@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 26,
+                "max": 38
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "rpg_classes:entities/slimebossdrops"
+}

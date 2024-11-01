@@ -1,0 +1,16 @@
+{
+  "parent": "rpg_classes:custom/shield_iron",
+  "textures": {
+    "0": "rpg_classes:block/iron_shield",
+    "missing": "rpg_classes:block/iron_shield",
+    "particle": "rpg_classes:item/iron_shield_icon_16x24"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "rpg_classes:item/iron_shield_0"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "rpg_classes:custom/hammer",
+  "textures": {
+    "all": "minecraft:block/brewing_stand",
+    "particle": "minecraft:block/brewing_stand",
+    "0": "rpg_classes:block/hammer_top",
+    "1": "rpg_classes:block/hammer_stick"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,1231 @@
+{
+  "mod_elements": [
+    {
+      "name": "ClassTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "class_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rpg_classes/loot_tables/blocks/class_table.json",
+          "src/main/java/net/mcreator/rpgclasses/block/ClassTableBlock.java",
+          "src/main/resources/assets/rpg_classes/models/item/class_table.json",
+          "src/main/resources/assets/rpg_classes/models/block/class_table.json",
+          "src/main/resources/assets/rpg_classes/blockstates/class_table.json",
+          "src/main/java/net/mcreator/rpgclasses/block/entity/ClassTableBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "ClassChooseGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "class_choose_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/client/gui/ClassChooseGUIScreen.java",
+          "src/main/java/net/mcreator/rpgclasses/world/inventory/ClassChooseGUIMenu.java",
+          "src/main/java/net/mcreator/rpgclasses/network/ClassChooseGUIButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Berzerker",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "berzerker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/BerzerkerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Test",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/block/TestBlock.java",
+          "src/main/resources/assets/rpg_classes/blockstates/test.json",
+          "src/main/resources/assets/rpg_classes/models/block/test.json",
+          "src/main/resources/data/rpg_classes/loot_tables/blocks/test.json",
+          "src/main/resources/assets/rpg_classes/models/item/test.json"
+        ]
+      }
+    },
+    {
+      "name": "ClasstableRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classtable_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rpg_classes/recipes/classtable_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PaladinArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladin_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rpg_classes/models/item/paladin_armor_helmet.json",
+          "src/main/resources/assets/rpg_classes/models/item/paladin_armor_leggings.json",
+          "src/main/resources/assets/rpg_classes/models/item/paladin_armor_chestplate.json",
+          "src/main/resources/assets/rpg_classes/models/item/paladin_armor_boots.json",
+          "src/main/java/net/mcreator/rpgclasses/item/PaladinArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "IronShield",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_shield",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rpg_classes/models/item/iron_shield.json",
+          "src/main/resources/assets/rpg_classes/models/item/iron_shield_0.json",
+          "src/main/java/net/mcreator/rpgclasses/item/IronShieldItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Warrior",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warrior",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/WarriorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PrimaryAbility",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primary_ability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/network/PrimaryAbilityMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "SpinAttack",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spin_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/SpinAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetupAnimations",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setup_animations",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/SetupAnimationsProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "TestPlantAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_plant_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/TestPlantAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DialmondHammer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dialmond_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/item/DialmondHammerItem.java",
+          "src/main/resources/assets/rpg_classes/models/item/dialmond_hammer.json"
+        ]
+      }
+    },
+    {
+      "name": "BoneBasher",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_basher",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/item/BoneBasherItem.java",
+          "src/main/resources/assets/rpg_classes/models/item/bone_basher.json"
+        ]
+      }
+    },
+    {
+      "name": "Crafthammer",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafthammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rpg_classes/recipes/crafthammer.json"
+        ]
+      }
+    },
+    {
+      "name": "Diamondchainmill",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondchainmill",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rpg_classes/models/item/diamondchainmill_leggings.json",
+          "src/main/resources/assets/rpg_classes/models/item/diamondchainmill_helmet.json",
+          "src/main/resources/assets/rpg_classes/models/item/diamondchainmill_chestplate.json",
+          "src/main/java/net/mcreator/rpgclasses/item/DiamondchainmillItem.java",
+          "src/main/resources/assets/rpg_classes/models/item/diamondchainmill_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "SplinterStrike",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "splinter_strike",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/SplinterStrikeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SecondaryAbility",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "secondary_ability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/network/SecondaryAbilityMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Paladinarmorset",
+      "type": "animatedarmor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladinarmorset",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rpg_classes/models/item/paladinarmorset_boots.json",
+          "src/main/java/net/mcreator/rpgclasses/item/PaladinarmorsetItem.java",
+          "src/main/resources/assets/rpg_classes/models/item/paladinarmorset_leggings.json",
+          "src/main/resources/assets/rpg_classes/models/item/paladinarmorset_chestplate.json",
+          "src/main/java/net/mcreator/rpgclasses/item/model/PaladinarmorsetModel.java",
+          "src/main/resources/assets/rpg_classes/models/item/paladinarmorset_helmet.json",
+          "src/main/java/net/mcreator/rpgclasses/client/renderer/PaladinarmorsetArmorRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "IronDagger",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_dagger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rpg_classes/models/item/iron_dagger.json",
+          "src/main/java/net/mcreator/rpgclasses/item/IronDaggerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DiamondDagger",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_dagger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rpg_classes/models/item/diamond_dagger.json",
+          "src/main/java/net/mcreator/rpgclasses/item/DiamondDaggerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SplinterOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "splinter_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/SplinterOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Splinter",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "splinter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/potion/SplinterMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "ClassresetRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classreset_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/ClassresetRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Classreset",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classreset",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rpg_classes/models/item/classreset.json",
+          "src/main/java/net/mcreator/rpgclasses/item/ClassresetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Archer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "archer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/ArcherProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Acherdamagebuff",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acherdamagebuff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/AcherdamagebuffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rogue",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rogue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/RogueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SlimeBoss",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_boss",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rpg_classes/models/item/slime_boss_spawn_egg.json",
+          "src/main/java/net/mcreator/rpgclasses/entity/SlimeBossEntity.java",
+          "src/main/java/net/mcreator/rpgclasses/client/renderer/SlimeBossRenderer.java",
+          "src/main/resources/data/rpg_classes/forge/biome_modifier/slime_boss_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "SlimeBossOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_boss_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/SlimeBossOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "SlimeBossEntityIsHurt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_boss_entity_is_hurt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/SlimeBossEntityIsHurtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Slimebossdrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimebossdrops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rpg_classes/loot_tables/entities/slimebossdrops.json"
+        ]
+      }
+    },
+    {
+      "name": "SetupCustomRender",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setup_custom_render",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/SetupCustomRenderProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Onstart",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onstart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/OnstartProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Wich",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wich",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/WichProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Irondaggerrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irondaggerrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rpg_classes/recipes/irondaggerrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedBrewingStand",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_brewing_stand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/block/entity/AdvancedBrewingStandBlockEntity.java",
+          "src/main/java/net/mcreator/rpgclasses/block/AdvancedBrewingStandBlock.java",
+          "src/main/resources/data/rpg_classes/loot_tables/blocks/advanced_brewing_stand.json",
+          "src/main/resources/assets/rpg_classes/models/block/advanced_brewing_stand.json",
+          "src/main/resources/assets/rpg_classes/models/item/advanced_brewing_stand.json",
+          "src/main/resources/assets/rpg_classes/blockstates/advanced_brewing_stand.json"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedBrewingUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_brewing_ui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/client/gui/AdvancedBrewingUIScreen.java",
+          "src/main/java/net/mcreator/rpgclasses/network/AdvancedBrewingUISlotMessage.java",
+          "src/main/java/net/mcreator/rpgclasses/world/inventory/AdvancedBrewingUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Custumcrafting",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "custumcrafting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/CustumcraftingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightiningAttack",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightining_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/LightiningAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Warlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warlock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/WarlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SplinterPotionItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "splinter_potion_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/item/SplinterPotionItemItem.java",
+          "src/main/resources/assets/rpg_classes/models/item/splinter_potion_item.json"
+        ]
+      }
+    },
+    {
+      "name": "SplinterPotionItemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "splinter_potion_item_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/SplinterPotionItemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdvancedBrewingStandOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_brewing_stand_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/AdvancedBrewingStandOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AdvancedAnvil",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_anvil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/block/AdvancedAnvilBlock.java",
+          "src/main/resources/data/rpg_classes/loot_tables/blocks/advanced_anvil.json",
+          "src/main/resources/assets/rpg_classes/models/item/advanced_anvil.json",
+          "src/main/java/net/mcreator/rpgclasses/block/entity/AdvancedAnvilBlockEntity.java",
+          "src/main/resources/assets/rpg_classes/blockstates/advanced_anvil.json",
+          "src/main/resources/assets/rpg_classes/models/block/advanced_anvil.json"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedAnvilgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_anvilgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/client/gui/AdvancedAnvilguiScreen.java",
+          "src/main/java/net/mcreator/rpgclasses/network/AdvancedAnvilguiSlotMessage.java",
+          "src/main/java/net/mcreator/rpgclasses/world/inventory/AdvancedAnvilguiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedAnvilOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_anvil_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/AdvancedAnvilOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blacksmith",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blacksmith",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/BlacksmithProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlacksmithCrafting",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blacksmith_crafting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/BlacksmithCraftingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronPlate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/item/IronPlateItem.java",
+          "src/main/resources/assets/rpg_classes/models/item/iron_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "Paladincraft",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladincraft",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/PaladincraftProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Advancedanvilrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advancedanvilrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rpg_classes/recipes/advancedanvilrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Speed3",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rpg_classes/models/item/speed_3.json",
+          "src/main/java/net/mcreator/rpgclasses/item/Speed3Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Speed3PlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_3_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rpgclasses/procedures/Speed3PlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SkeletonKing",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeleton_king",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rpg_classes/models/item/skeleton_king_spawn_egg.json",
+          "src/main/java/net/mcreator/rpgclasses/entity/model/SkeletonKingModel.java",
+          "src/main/java/net/mcreator/rpgclasses/client/renderer/SkeletonKingRenderer.java",
+          "src/main/resources/data/rpg_classes/forge/biome_modifier/skeleton_king_biome_modifier.json",
+          "src/main/java/net/mcreator/rpgclasses/entity/SkeletonKingEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Skeletontest",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeletontest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rpg_classes/forge/biome_modifier/skeletontest_biome_modifier.json",
+          "src/main/java/net/mcreator/rpgclasses/entity/SkeletontestEntity.java",
+          "src/main/java/net/mcreator/rpgclasses/client/renderer/SkeletontestRenderer.java",
+          "src/main/resources/assets/rpg_classes/models/item/skeletontest_spawn_egg.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Is_Warrior",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "Has_Class",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "Is_Archer",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "Is_Rogue",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "Is_Wich",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "Is_Blacksmith",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "Is_Warlock",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:DiamondDagger",
+      "~CUSTOM:IronDagger",
+      "~CUSTOM:BoneBasher",
+      "~CUSTOM:DialmondHammer"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "gui.rpg_classes.class_choose_gui.tooltip_test": "Warrior",
+      "item.rpg_classes.paladinarmorset_leggings": "Paladin Leggings",
+      "effect.rpg_classes.splinter": "Splinter",
+      "item.rpg_classes.speed_3": "Potion of Speed 3",
+      "item.rpg_classes.diamondchainmill_chestplate": "Diamond chainmill Chestplate",
+      "item.rpg_classes.diamond_dagger": "Diamond Dagger",
+      "gui.rpg_classes.class_choose_gui.button_berzerker": "Berzerker",
+      "block.rpg_classes.advanced_brewing_stand": "Advanced Brewing Stand",
+      "item.rpg_classes.splinter_potion_item": "Splinter Potion",
+      "item.rpg_classes.iron_plate": "Iron Plate",
+      "gui.rpg_classes.class_choose_gui.tooltip_archer": "Archer",
+      "item.rpg_classes.iron_dagger": "Iron Dagger",
+      "entity.rpg_classes.skeletontest": "Skeletontest",
+      "item.rpg_classes.paladinarmorset_boots": "Paladin Boots",
+      "gui.rpg_classes.class_choose_gui.tooltip_wich": "Wich",
+      "key.rpg_classes.primary_ability": "Primary Ability",
+      "item.rpg_classes.bone_basher": "Bone Basher",
+      "item.rpg_classes.paladin_armor_chestplate": "Paladin Armor Chestplate",
+      "gui.rpg_classes.class_choose_gui.tooltip_blacksmith": "Blacksmith",
+      "entity.rpg_classes.skeleton_king": "Skeleton King",
+      "item.rpg_classes.skeletontest_spawn_egg": "Skeletontest Spawn Egg",
+      "key.rpg_classes.secondary_ability": "SecondaryAbility",
+      "item.rpg_classes.paladin_armor_boots": "Paladin Armor Boots",
+      "block.rpg_classes.class_table": "Class Table",
+      "item.rpg_classes.diamondchainmill_leggings": "Diamond chainmill Leggings",
+      "block.rpg_classes.advanced_anvil": "Advanced Anvil",
+      "item.rpg_classes.paladinarmorset_chestplate": "Paladin Chestplate",
+      "item.rpg_classes.skeleton_king_spawn_egg": "Skeleton King Spawn Egg",
+      "item.rpg_classes.paladin_armor_helmet": "Paladin Armor Helmet",
+      "item.rpg_classes.paladin_armor_leggings": "Paladin Armor Leggings",
+      "item.rpg_classes.iron_shield": "Iron Shield",
+      "item.rpg_classes.classreset": "Class reset",
+      "item.rpg_classes.dialmond_hammer": "Dialmond Destroyer",
+      "item.rpg_classes.diamondchainmill_helmet": "Diamond chainmill Helmet",
+      "gui.rpg_classes.class_choose_gui.tooltip_warlock": "Warlock",
+      "item.rpg_classes.slime_boss_spawn_egg": "Slime Boss Spawn Egg",
+      "item.rpg_classes.diamondchainmill_boots": "Diamond chainmill Boots",
+      "gui.rpg_classes.class_choose_gui.button_warrior": "Warrior",
+      "block.rpg_classes.test": "Test",
+      "item.rpg_classes.paladinarmorset_helmet": "Paladin Helmet",
+      "gui.rpg_classes.class_choose_gui.tooltip_rogue": "rogue",
+      "entity.rpg_classes.slime_boss": "Slime Boss"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "rpg_classes",
+    "modName": "RPG Classes",
+    "version": "1.0.0",
+    "author": "Sabien, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [
+      "kleiders_custom_renderer",
+      "geckolib",
+      "playeranimator"
+    ],
+    "dependencies": [
+      "kleiderscustomrenderer"
+    ],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "kleidersplayerrenderer",
+      "pehkui",
+      "geckolib",
+      "playeranimator"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.rpgclasses"
+  },
+  "mcreatorVersion": 202400232117
+}

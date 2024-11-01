@@ -1,0 +1,12 @@
+{
+  "_fv": 66,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "V",
+    "keyBindingName": "SecondaryAbility",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "SplinterStrike"
+    }
+  }
+}

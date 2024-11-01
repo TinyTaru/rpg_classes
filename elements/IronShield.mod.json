@@ -1,0 +1,39 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Shield",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "iron_shield_icon_16x24",
+    "customModelName": "shield_iron:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Iron Shield",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "COMBAT"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 18,
+    "damageVsEntity": 4.0,
+    "usageCount": 420,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "minecraft:obsidian"
+    },
+    "c": {
+      "item": "minecraft:anvil"
+    }
+  },
+  "result": {
+    "item": "rpg_classes:advanced_anvil",
+    "count": 1
+  }
+}

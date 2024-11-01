@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "iron_shield",
+        "missing": "iron_shield"
+      },
+      "name": "default"
+    }
+  }
+}

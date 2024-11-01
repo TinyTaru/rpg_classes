@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  a",
+    " b ",
+    "b  "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_block"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "rpg_classes:bone_basher",
+    "count": 1
+  }
+}

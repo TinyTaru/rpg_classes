@@ -1,0 +1,12 @@
+{
+  "_fv": 66,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "G",
+    "keyBindingName": "Primary Ability",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "SpinAttack"
+    }
+  }
+}

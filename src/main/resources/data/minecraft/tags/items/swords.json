@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "rpg_classes:scythe",
+    "rpg_classes:diamond_dagger",
+    "rpg_classes:iron_dagger",
+    "rpg_classes:bone_basher",
+    "rpg_classes:dialmond_hammer"
+  ]
+}

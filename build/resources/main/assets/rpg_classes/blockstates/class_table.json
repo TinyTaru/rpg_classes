@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "rpg_classes:block/class_table"
+    }
+  }
+}

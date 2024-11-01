@@ -1,0 +1,260 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 422,
+    "height": 236,
+    "inventoryOffsetX": -1,
+    "inventoryOffsetY": 33,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 96,
+          "y": 188
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 96,
+          "y": 170
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 96,
+          "y": 152
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "empty_slot_lapis_lazuli.png",
+          "use1Xscale": false,
+          "x": 96,
+          "y": 188
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_empty_slot_diamond",
+          "image": "empty_slot_diamond.png",
+          "hoveredImage": "",
+          "x": 96,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "empty_slot_emerald.png",
+          "use1Xscale": false,
+          "x": 96,
+          "y": 152
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_warrior_button",
+          "image": "warrior_button.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Warrior"
+          },
+          "x": 42,
+          "y": 8
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_archer_button",
+          "image": "archer_button.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Archer"
+          },
+          "x": 105,
+          "y": 8
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_rogue",
+          "image": "rougue_button.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Rogue"
+          },
+          "x": 168,
+          "y": 8
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_wich_button",
+          "image": "wich_button.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Wich"
+          },
+          "x": 231,
+          "y": 8
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_warlock_button",
+          "image": "warlock_button.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Warlock"
+          },
+          "x": 294,
+          "y": 8
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_blacksmith_button",
+          "image": "blacksmith_button.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Blacksmith"
+          },
+          "x": 357,
+          "y": 8
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_test",
+          "text": {
+            "fixedValue": "Warrior"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 42,
+          "y": 8
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_archer",
+          "text": {
+            "fixedValue": "Archer"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 105,
+          "y": 8
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_rogue",
+          "text": {
+            "fixedValue": "rogue"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 168,
+          "y": 8
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_wich",
+          "text": {
+            "fixedValue": "Wich"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 231,
+          "y": 8
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_warlock",
+          "text": {
+            "fixedValue": "Warlock"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 294,
+          "y": 8
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_blacksmith",
+          "text": {
+            "fixedValue": "Blacksmith"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 357,
+          "y": 8
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

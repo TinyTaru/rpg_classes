@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "swamp",
+    "mangrove_swamp"
+  ],
+  "spawners": {
+    "type": "rpg_classes:slime_boss",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

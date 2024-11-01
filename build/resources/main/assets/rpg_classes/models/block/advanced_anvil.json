@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/anvil",
+    "up": "minecraft:block/anvil",
+    "north": "minecraft:block/anvil",
+    "east": "minecraft:block/anvil",
+    "south": "minecraft:block/anvil",
+    "west": "minecraft:block/anvil",
+    "particle": "minecraft:block/anvil"
+  },
+  "render_type": "solid"
+}

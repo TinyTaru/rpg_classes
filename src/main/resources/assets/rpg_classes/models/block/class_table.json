@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/gold_block",
+    "up": "minecraft:block/enchanting_table_top",
+    "north": "rpg_classes:block/class_table_art",
+    "east": "rpg_classes:block/class_table_art",
+    "south": "rpg_classes:block/class_table_art",
+    "west": "rpg_classes:block/class_table_art",
+    "particle": "minecraft:block/gold_block"
+  },
+  "render_type": "solid"
+}

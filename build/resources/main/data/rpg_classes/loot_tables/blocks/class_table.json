@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "rpg_classes:blocks/class_table",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rpg_classes:class_table"
+        }
+      ]
+    }
+  ]
+}
