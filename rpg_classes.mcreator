@@ -1106,6 +1106,19 @@
           "src/main/java/net/mcreator/rpgclasses/item/ScytheItem.java"
         ]
       }
+    },
+    {
+      "name": "WoodenDagger",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_dagger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rpg_classes/models/item/wooden_dagger.json",
+          "src/main/java/net/mcreator/rpgclasses/item/WoodenDaggerItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1155,6 +1168,7 @@
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:WoodenDagger",
       "~CUSTOM:Scythe",
       "~CUSTOM:DiamondDagger",
       "~CUSTOM:IronDagger",
@@ -1166,8 +1180,8 @@
   "language_map": {
     "en_us": {
       "gui.rpg_classes.class_choose_gui.tooltip_test": "Warrior",
-      "effect.rpg_classes.splinter": "Splinter",
       "item.rpg_classes.paladinarmorset_leggings": "Paladin Leggings",
+      "effect.rpg_classes.splinter": "Splinter",
       "item.rpg_classes.speed_3": "Potion of Speed 3",
       "item.rpg_classes.diamondchainmill_chestplate": "Diamond chainmill Chestplate",
       "item.rpg_classes.diamond_dagger": "Diamond Dagger",
@@ -1179,6 +1193,7 @@
       "item.rpg_classes.iron_dagger": "Iron Dagger",
       "entity.rpg_classes.skeletontest": "Skeletontest",
       "item.rpg_classes.paladinarmorset_boots": "Paladin Boots",
+      "item.rpg_classes.wooden_dagger": "Iron Dagger",
       "gui.rpg_classes.class_choose_gui.tooltip_wich": "Wich",
       "key.rpg_classes.primary_ability": "Primary Ability",
       "item.rpg_classes.bone_basher": "Bone Basher",

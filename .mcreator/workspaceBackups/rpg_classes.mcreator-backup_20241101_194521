@@ -1075,7 +1075,6 @@
           "src/main/resources/assets/rpg_classes/models/item/skeleton_king_spawn_egg.json",
           "src/main/java/net/mcreator/rpgclasses/entity/model/SkeletonKingModel.java",
           "src/main/java/net/mcreator/rpgclasses/client/renderer/SkeletonKingRenderer.java",
-          "src/main/resources/data/rpg_classes/forge/biome_modifier/skeleton_king_biome_modifier.json",
           "src/main/java/net/mcreator/rpgclasses/entity/SkeletonKingEntity.java"
         ]
       }
@@ -1092,6 +1091,19 @@
           "src/main/java/net/mcreator/rpgclasses/entity/SkeletontestEntity.java",
           "src/main/java/net/mcreator/rpgclasses/client/renderer/SkeletontestRenderer.java",
           "src/main/resources/assets/rpg_classes/models/item/skeletontest_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Scythe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scythe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rpg_classes/models/item/scythe.json",
+          "src/main/java/net/mcreator/rpgclasses/item/ScytheItem.java"
         ]
       }
     }
@@ -1143,6 +1155,7 @@
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:Scythe",
       "~CUSTOM:DiamondDagger",
       "~CUSTOM:IronDagger",
       "~CUSTOM:BoneBasher",
@@ -1184,6 +1197,7 @@
       "item.rpg_classes.paladin_armor_leggings": "Paladin Armor Leggings",
       "item.rpg_classes.iron_shield": "Iron Shield",
       "item.rpg_classes.classreset": "Class reset",
+      "item.rpg_classes.scythe": "Scythe",
       "item.rpg_classes.dialmond_hammer": "Dialmond Destroyer",
       "item.rpg_classes.diamondchainmill_helmet": "Diamond chainmill Helmet",
       "gui.rpg_classes.class_choose_gui.tooltip_warlock": "Warlock",
