@@ -46,7 +46,6 @@ public class RpgClassesModTabs {
 			tabData.accept(RpgClassesModItems.BONE_BASHER.get());
 			tabData.accept(RpgClassesModItems.IRON_DAGGER.get());
 			tabData.accept(RpgClassesModItems.DIAMOND_DAGGER.get());
-			tabData.accept(RpgClassesModItems.WOODEN_DAGGER.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(RpgClassesModItems.SPLINTER_POTION_ITEM.get());
 			tabData.accept(RpgClassesModItems.SPEED_3.get());

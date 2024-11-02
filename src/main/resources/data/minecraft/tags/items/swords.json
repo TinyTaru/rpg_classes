@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "rpg_classes:wooden_dagger",
     "rpg_classes:scythe",
     "rpg_classes:diamond_dagger",
     "rpg_classes:iron_dagger",
