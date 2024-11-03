@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "minecraft:clock_03",
+    "texture": "minecraft:compass_04",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],

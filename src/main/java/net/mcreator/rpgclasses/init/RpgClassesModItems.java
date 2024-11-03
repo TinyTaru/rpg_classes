@@ -29,6 +29,7 @@ import net.mcreator.rpgclasses.item.PaladinArmorItem;
 import net.mcreator.rpgclasses.item.IronShieldItem;
 import net.mcreator.rpgclasses.item.IronPlateItem;
 import net.mcreator.rpgclasses.item.IronDaggerItem;
+import net.mcreator.rpgclasses.item.GitTestItem;
 import net.mcreator.rpgclasses.item.DiamondchainmillItem;
 import net.mcreator.rpgclasses.item.DiamondDaggerItem;
 import net.mcreator.rpgclasses.item.DialmondHammerItem;
