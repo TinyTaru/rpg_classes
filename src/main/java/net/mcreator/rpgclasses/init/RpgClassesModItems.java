@@ -68,6 +68,7 @@ public class RpgClassesModItems {
 	public static final RegistryObject<Item> SKELETON_KING_SPAWN_EGG = REGISTRY.register("skeleton_king_spawn_egg", () -> new ForgeSpawnEggItem(RpgClassesModEntities.SKELETON_KING, -1, -256, new Item.Properties()));
 	public static final RegistryObject<Item> SKELETONTEST_SPAWN_EGG = REGISTRY.register("skeletontest_spawn_egg", () -> new ForgeSpawnEggItem(RpgClassesModEntities.SKELETONTEST, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> SCYTHE = REGISTRY.register("scythe", () -> new ScytheItem());
+	public static final RegistryObject<Item> GIT_TEST = REGISTRY.register("git_test", () -> new GitTestItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

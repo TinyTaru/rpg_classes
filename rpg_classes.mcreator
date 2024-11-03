@@ -1106,6 +1106,19 @@
           "src/main/java/net/mcreator/rpgclasses/item/ScytheItem.java"
         ]
       }
+    },
+    {
+      "name": "GitTest",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "git_test",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rpg_classes/models/item/git_test.json",
+          "src/main/java/net/mcreator/rpgclasses/item/GitTestItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1168,6 +1181,7 @@
       "gui.rpg_classes.class_choose_gui.tooltip_test": "Warrior",
       "item.rpg_classes.paladinarmorset_leggings": "Paladin Leggings",
       "effect.rpg_classes.splinter": "Splinter",
+      "item.rpg_classes.git_test": "Git Test",
       "item.rpg_classes.speed_3": "Potion of Speed 3",
       "item.rpg_classes.diamondchainmill_chestplate": "Diamond chainmill Chestplate",
       "item.rpg_classes.diamond_dagger": "Diamond Dagger",
