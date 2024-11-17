@@ -3,8 +3,8 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "minecraft:carrot",
-    "customModelName": "Ranged item",
+    "texture": "minecraft:compass_04",
+    "customModelName": "Normal",
     "customProperties": {},
     "states": [],
     "name": "Git Test",
@@ -25,12 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": [
-        "Gah",
-        "boo",
-        "moo",
-        ""
-      ]
+      "fixedValue": []
     },
     "glowCondition": {
       "fixedValue": false
